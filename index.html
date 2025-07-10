@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FakeStore Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FakeStore Products</h1>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search products..." />
+      <select id="category-select">
+        <option value="all">All Categories</option>
+      </select>
+      <div class="cart">
+         Cart: <span id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="product-list" class="container"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
